@@ -1,0 +1,1018 @@
+@media (max-width: 1200px) {
+  /* header */
+  .header {
+    padding: 28px 0;
+  }
+
+  .header__container {
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    width: 112px;
+    height: 14px;
+    margin-bottom: 51px;
+  }
+
+  .header__nav {
+    position: inherit;
+    width: 100%;
+    order: 3;
+  }
+
+  .header__nav::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    outline: 1px solid var(--light-color);
+  }
+
+  .header__nav::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 144px;
+    outline: 1px solid var(--light-color);
+  }
+
+  .nav__list {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .header__btn {
+    margin-bottom: 45px;
+  }
+
+  /* hero */
+  .hero__container {
+    padding-top: 85px;
+    padding-bottom: 89px;
+    background-image: url("../img/hero-microphone-1024.png");
+    background-position: 87% 44%;
+  }
+
+  .hero__block {
+    width: 61%;
+  }
+
+  .hero__desc {
+    margin-bottom: 18px;
+  }
+
+  /* broadcast */
+  .broadcast__item {
+    min-width: calc((100% - 30px) / 2);
+    max-width: 255px;
+  }
+
+  .broadcast__article {
+    max-width: 100%;
+  }
+
+  /* guests */
+  .guests {
+    padding-top: 95px;
+  }
+
+  .guests__desc {
+    margin-bottom: 47px;
+    max-width: 536px;
+  }
+
+  .guests__item-block {
+    max-width: 362px;
+  }
+
+  /* playlists */
+  .playlists {
+    padding-bottom: 94px;
+  }
+
+  .playlists__container {
+    flex-direction: column;
+  }
+
+  .playlists__block {
+    margin-bottom: 31px;
+  }
+
+  .playlists__list {
+    padding-top: 0;
+  }
+
+  .playlists__item {
+    padding-top: 0;
+    padding-left: 112px;
+    min-height: 112px;
+    width: calc((100% - 60px) / 3);
+    max-width: 350px;
+  }
+
+  .playlists__item-block {
+    padding: 39px 9px 12px;
+  }
+
+  .playlists__item_img-1 {
+    background: url("../img/flag-rus.png") top left no-repeat,
+      url("../img/playlists-1-1024.jpg") no-repeat;
+  }
+
+  .playlists__item_img-2 {
+    background: url("../img/flag-rus.png") top left no-repeat,
+      url("../img/playlists-2-1024.jpg") no-repeat;
+  }
+
+  .playlists__item_img-3 {
+    background: url("../img/flag-rus.png") top left no-repeat,
+      url("../img/playlists-3-1024.jpg") no-repeat;
+  }
+
+  .playlists__item_img-4 {
+    background: url("../img/flag-rus.png") top left no-repeat,
+      url("../img/playlists-4-1024.jpg") no-repeat;
+  }
+  .playlists__item_img-5 {
+    background: url("../img/flag-rus.png") top left no-repeat,
+      url("../img/playlists-5-1024.jpg") no-repeat;
+  }
+  .playlists__item_img-6 {
+    background: url("../img/flag-rus.png") top left no-repeat,
+      url("../img/playlists-6-1024.jpg") no-repeat;
+  }
+  .playlists__item_img-7 {
+    background: url("../img/flag-gbr.png") top left no-repeat,
+      url("../img/playlists-7-1024.jpg") no-repeat;
+  }
+  .playlists__item_img-8 {
+    background: url("../img/flag-gbr.png") top left no-repeat,
+      url("../img/playlists-8-1024.jpg") no-repeat;
+  }
+  .playlists__item_img-9 {
+    background: url("../img/flag-gbr.png") top left no-repeat,
+      url("../img/playlists-9-1024.jpg") no-repeat;
+  }
+  .playlists__item_img-10 {
+    background: url("../img/flag-gbr.png") top left no-repeat,
+      url("../img/playlists-10-1024.jpg") no-repeat;
+  }
+  .playlists__item_img-11 {
+    background: url("../img/flag-gbr.png") top left no-repeat,
+      url("../img/playlists-11-1024.jpg") no-repeat;
+  }
+  .playlists__item_img-12 {
+    background: url("../img/flag-gbr.png") top left no-repeat,
+      url("../img/playlists-12-1024.jpg") no-repeat;
+  }
+
+  /* buy */
+  .buy {
+    padding-bottom: 93px;
+  }
+
+  .buy__container {
+    background: url("../img/buy-radio-1024.png") 100px 118px no-repeat;
+  }
+
+  .buy__block {
+    width: 48%;
+  }
+
+  /* about */
+  .about {
+    padding-bottom: 96px;
+  }
+
+  .about__container {
+    background: url("../img/about-dawn.png") 87% 49px no-repeat;
+  }
+
+  .about__subtitle {
+    width: 70%;
+  }
+
+  .about__desc {
+    width: 66%;
+  }
+
+  .about__item {
+    width: calc((100% - 30px) / 2);
+    max-width: 500px;
+  }
+
+  .about__img {
+    width: 100%;
+  }
+
+  .about__item-desc {
+    max-width: 397px;
+  }
+
+  /* form */
+  .form {
+    width: 100%;
+    gap: 27px;
+  }
+}
+
+@media (max-width: 1000px) {
+  a,
+  button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  .container {
+    max-width: 1338px;
+    padding: 0 114px;
+  }
+
+  /* header */
+  .header {
+    padding: 32px 0;
+  }
+
+  .header__logo {
+    margin-bottom: 0;
+  }
+
+  .header__btn {
+    margin-bottom: 0;
+  }
+
+  .header__nav {
+    padding: 46px 0px;
+  }
+
+  .header__nav::before {
+    top: 87px;
+  }
+
+  .header__nav::after {
+    top: 146px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .nav__link {
+    font-size: var(--font-size-less);
+  }
+
+  /* hero */
+  .hero {
+    padding-top: 34px;
+    padding-bottom: 90px;
+  }
+
+  .hero__container {
+    background-image: none;
+  }
+
+  .hero__block {
+    width: 95%;
+  }
+
+  /* podcasts */
+  .podcasts__item {
+    min-width: 100%;
+  }
+
+  /* broadcast */
+  .broadcast__container {
+    flex-direction: column;
+  }
+
+  .broadcast__list {
+    padding-top: 0;
+  }
+
+  .broadcast__title {
+    margin-bottom: 124px;
+  }
+
+  .broadcast {
+    position: relative;
+    padding-bottom: 214px;
+  }
+
+  .broadcast::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 156px;
+    outline: 1px solid var(--light-color);
+  }
+
+  .broadcast__container {
+    position: static;
+  }
+
+  .broadcast__archive {
+    padding-top: 0;
+    padding-left: 87px;
+    max-width: 350px;
+    background-image: url("../img/broadcasts-microphone-768.png");
+    bottom: 30px;
+    left: 28%;
+  }
+
+  .broadcast__btn {
+    margin-bottom: 9px;
+  }
+
+  /* guests */
+  .guests {
+    padding-bottom: 95px;
+  }
+
+  .guests__list {
+    gap: 50px;
+  }
+
+  .guests__item {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .guests__pic {
+    min-width: 100%;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .guests__item-block {
+    max-width: 67%;
+  }
+
+  .guests__desc {
+    margin-bottom: 49px;
+  }
+
+  /* playlists */
+  .playlists {
+    padding-bottom: 111px;
+  }
+
+  .playlists__item {
+    width: calc((100% - 30px) / 2);
+  }
+
+  /* buy */
+  .buy {
+    padding-top: 54px;
+  }
+
+  .buy__container {
+    display: flex;
+    flex-direction: column;
+    background: url("../img/buy-radio-768.png") 114px 0px / 70.3% no-repeat;
+  }
+
+  .buy__block {
+    padding-top: 97%;
+    width: 100%;
+  }
+
+  .buy__block::after {
+    background-image: url("../img/buy-line-768.png");
+  }
+
+  .buy__title {
+    max-width: 441px;
+  }
+
+  .buy__desc_one {
+    max-width: 99%;
+  }
+
+  /* about */
+  .about__container {
+    background: none;
+  }
+
+  .about {
+    background: url("../img/about-spiral-768.png") 0 470px no-repeat,
+      url("../img/about-dawn-768.png") 82.5% 470px no-repeat;
+    background-color: var(--dark);
+  }
+
+  .about__subtitle {
+    width: 100%;
+  }
+
+  .about__desc {
+    margin-bottom: 172px;
+    min-width: 540px;
+  }
+
+  .about__item {
+    max-width: 400px;
+  }
+
+  .about__item-desc {
+    max-width: 400px;
+  }
+
+  .form__middle {
+    flex-direction: column;
+  }
+
+  /* footer */
+  .footer__top {
+    padding-top: 93px;
+    padding-bottom: 71px;
+  }
+
+  .footer__top-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__social-block {
+    margin-bottom: 73px;
+  }
+
+  .list-social {
+    justify-content: center;
+  }
+
+  .footer__logo {
+    margin-bottom: 14px;
+  }
+
+  .list-social__svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer__nav-list {
+    min-width: 537px;
+    column-gap: 149px;
+  }
+
+  .footer__nav-item {
+    margin-bottom: 28px;
+  }
+
+  .footer__bottom {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 1174px;
+    padding: 0 32px;
+  }
+
+  .title-section {
+    font-size: 24px;
+    margin-bottom: 19px;
+  }
+
+  /* header */
+  .header {
+    padding: 14px 0;
+  }
+
+  .header__logo {
+    margin-bottom: 7px;
+    width: 87px;
+    height: 10px;
+  }
+
+  .header__nav {
+    overflow-x: auto;
+    padding-top: 27px;
+    padding-bottom: 21px;
+  }
+
+  .header__nav::before {
+    top: 55px;
+  }
+
+  .header__nav::after {
+    top: 104px;
+  }
+
+  .nav__list {
+    flex-wrap: nowrap;
+  }
+
+  /* hero */
+  .hero {
+    padding-top: 22px;
+    padding-bottom: 39px;
+  }
+
+  .hero__block {
+    width: 100%;
+  }
+
+  .hero__title {
+    margin-bottom: 7px;
+    font-size: 32px;
+  }
+
+  .hero__desc {
+    margin-bottom: 19px;
+    font-size: 14px;
+  }
+
+  .button-color {
+    font-size: var(--font-size-less);
+    font-weight: 500;
+    line-height: normal;
+    padding: 16px 44px;
+  }
+
+  .broadcast__item {
+    max-width: 205px;
+  }
+
+  /* playlists */
+  .playlists {
+    padding-top: 54px;
+    padding-bottom: 53px;
+  }
+
+  .playlists__title {
+    margin-bottom: 12px;
+  }
+
+  .playlists__desc {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .playlists__copyright {
+    font-size: 12px;
+  }
+
+  .playlists__item {
+    flex-direction: column;
+    padding-left: 0;
+    width: calc((100% - 60px) / 3);
+    max-width: 160px;
+    padding-top: 112px;
+  }
+
+  .playlists__item_img-1 {
+    background: url("../img/flag-rus.png") top right no-repeat,
+      url("../img/playlists-1-1024.jpg") top / contain no-repeat;
+  }
+
+  .playlists__item_img-2 {
+    background: url("../img/flag-rus.png") top right no-repeat,
+      url("../img/playlists-2-1024.jpg") top / contain no-repeat;
+  }
+
+  .playlists__item_img-3 {
+    background: url("../img/flag-rus.png") top right no-repeat,
+      url("../img/playlists-3-1024.jpg") top / contain no-repeat;
+  }
+
+  .playlists__item_img-4 {
+    background: url("../img/flag-rus.png") top right no-repeat,
+      url("../img/playlists-4-1024.jpg") top / contain no-repeat;
+  }
+  .playlists__item_img-5 {
+    background: url("../img/flag-rus.png") top right no-repeat,
+      url("../img/playlists-5-1024.jpg") top / contain no-repeat;
+  }
+  .playlists__item_img-6 {
+    background: url("../img/flag-rus.png") top right no-repeat,
+      url("../img/playlists-6-1024.jpg") top / contain no-repeat;
+  }
+  .playlists__item_img-7 {
+    background: url("../img/flag-gbr.png") top right no-repeat,
+      url("../img/playlists-7-1024.jpg") top / contain no-repeat;
+  }
+  .playlists__item_img-8 {
+    background: url("../img/flag-gbr.png") top right no-repeat,
+      url("../img/playlists-8-1024.jpg") top / contain no-repeat;
+  }
+  .playlists__item_img-9 {
+    background: url("../img/flag-gbr.png") top right no-repeat,
+      url("../img/playlists-9-1024.jpg") top / contain no-repeat;
+  }
+  .playlists__item_img-10 {
+    background: url("../img/flag-gbr.png") top right no-repeat,
+      url("../img/playlists-10-1024.jpg") top / contain no-repeat;
+  }
+  .playlists__item_img-11 {
+    background: url("../img/flag-gbr.png") top right no-repeat,
+      url("../img/playlists-11-1024.jpg") top / contain no-repeat;
+  }
+  .playlists__item_img-12 {
+    background: url("../img/flag-gbr.png") top right no-repeat,
+      url("../img/playlists-12-1024.jpg") top / contain no-repeat;
+  }
+
+  .playlists__item-block {
+    padding: 10px 9px 5px;
+  }
+
+  .playlists__item-title {
+    font-size: 12px;
+  }
+
+  .playlists__item-desc {
+    font-size: 9px;
+  }
+
+  /* buy */
+  .buy {
+    padding-bottom: 53px;
+  }
+
+  .buy__block {
+    padding-top: 75%;
+  }
+
+  .buy__title {
+    min-height: 68px;
+  }
+
+  .buy__title::after {
+    top: 57px;
+  }
+
+  .buy__desc {
+    font-size: 14px;
+    line-height: 160%;
+  }
+
+  .buy__desc_one {
+    margin-bottom: 8px;
+    max-width: 100%;
+  }
+
+  .buy__desc_two {
+    margin-bottom: 8px;
+  }
+
+  .buy__price {
+    margin-bottom: 18px;
+    font-size: 24px;
+  }
+
+  .buy__btn {
+    padding: 14px 15px;
+    min-width: 256px;
+    font-size: 16px;
+  }
+
+  /* about */
+  .about {
+    padding-top: 55px;
+    padding-bottom: 54px;
+    background-image: none;
+  }
+
+  .about__title {
+    margin-bottom: 10px;
+  }
+
+  .about__subtitle {
+    margin-bottom: 4px;
+    width: 95.1%;
+    font-size: 14px;
+  }
+
+  .about__desc {
+    margin-bottom: 27px;
+    min-width: 251px;
+    font-size: 14px;
+  }
+
+  .about__item {
+    width: calc((100% - 90px) / 4);
+    max-width: 200px;
+  }
+
+  .about__pic {
+    margin-bottom: 8px;
+  }
+
+  .about__item-title {
+    margin-bottom: 4px;
+    max-width: 109px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .about__item-desc {
+    max-width: 113px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .form {
+    gap: 23px;
+  }
+
+  .form__input {
+    padding: 16px 24px;
+    font-size: 16px;
+  }
+
+  .form-textarea {
+    padding: 16px 23px;
+    border-radius: 20px;
+  }
+
+  .form__middle {
+    margin-bottom: 7px;
+  }
+
+  .form__btn {
+    margin-bottom: 19px;
+  }
+
+  .check {
+    font-size: 9px;
+  }
+
+  .form__input:invalid + .validity-text::before {
+    left: 25px;
+    top: 4px;
+    font-size: 10px;
+    line-height: normal;
+    color: #d52b1e;
+  }
+
+  /* footer */
+  .footer__top {
+    padding-top: 55px;
+    padding-bottom: 52px;
+  }
+
+  .footer__social-block {
+    margin-bottom: 79px;
+  }
+
+  .footer__nav-list {
+    min-width: 400px;
+    column-gap: 100px;
+  }
+
+  .footer__nav-item {
+    margin-bottom: 24px;
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  .footer__text {
+    font-size: 12px;
+    line-height: 103%;
+  }
+}
+
+@media (max-width: 500px) {
+  /* header */
+  .nav__item:not(:last-child) {
+    margin-right: 28px;
+  }
+
+  /* podcasts */
+  .podcasts {
+    padding-top: 56px;
+    padding-bottom: 54px;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: start;
+    min-height: 185px;
+  }
+
+  .card__img_1 {
+    background-image: url("../img/podcasts-1-320.jpg");
+  }
+
+  .card__img_2 {
+    background-image: url("../img/podcasts-2-320.jpg");
+  }
+
+  .card__img_3 {
+    background-image: url("../img/podcasts-3-320.jpg");
+  }
+
+  .card__img_4 {
+    background-image: url("../img/podcasts-4-320.jpg");
+  }
+
+  .card__img_5 {
+    background-image: url("../img/podcasts-5-320.jpg");
+  }
+
+  .card__img_6 {
+    background-image: url("../img/podcasts-6-320.jpg");
+  }
+
+  .card__img_7 {
+    background-image: url("../img/podcasts-7-320.jpg");
+  }
+
+  .card__img_8 {
+    background-image: url("../img/podcasts-8-320.jpg");
+  }
+
+  .card__img {
+    width: 100%;
+    min-height: 72px;
+    min-width: 256px;
+    background-size: cover;
+  }
+
+  .card__date {
+    bottom: 78%;
+    left: 0px;
+  }
+
+  .card__content {
+    padding: 29px 10px 27px 15px;
+  }
+
+  .card__title {
+    margin-bottom: 2px;
+    font-size: var(--font-size-less);
+  }
+
+  .card__desc {
+    font-size: 12px;
+  }
+
+  /* broadcast */
+  .broadcast {
+    padding-top: 55px;
+    padding-bottom: 220px;
+  }
+
+  .broadcast::after {
+    bottom: 189px;
+  }
+
+  .broadcast__title {
+    margin-bottom: 28px;
+  }
+
+  .broadcast__item {
+    max-width: 113px;
+  }
+
+  .broadcast__article {
+    padding-top: 51px;
+    min-height: 149px;
+  }
+
+  .broadcast__article_img-1 {
+    background-image: url("../img/broadcast-1-320.jpg");
+  }
+
+  .broadcast__article_img-2 {
+    background-image: url("../img/broadcast-2-320.jpg");
+  }
+
+  .broadcast__article_img-3 {
+    background-image: url("../img/broadcast-3-320.jpg");
+  }
+
+  .broadcast__article_img-4 {
+    background-image: url("../img/broadcast-4-320.jpg");
+  }
+
+  .broadcast__article_img-5 {
+    background-image: url("../img/broadcast-5-320.jpg");
+  }
+
+  .broadcast__article_img-6 {
+    background-image: url("../img/broadcast-6-320.jpg");
+  }
+
+  .broadcast__list {
+    gap: 29px;
+  }
+
+  .broadcast__block {
+    padding: 9px 9px 11px 9px;
+  }
+
+  .broadcast__item-title {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .broadcast__item-desc {
+    font-size: 9px;
+  }
+
+  .broadcast__item-link {
+    color: var(--primary);
+  }
+
+  .broadcast__item-link .broadcast__arrow {
+    fill: var(--primary);
+  }
+
+  .broadcast__more {
+    font-size: 12px;
+  }
+
+  .broadcast__archive {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    padding-left: 91px;
+    max-width: 250px;
+    background-image: url("../img/broadcasts-microphone-320.png");
+    bottom: 0px;
+    left: 3%;
+  }
+
+  .broadcast__desc {
+    margin-bottom: 7px;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .broadcast__btn {
+    padding: 8px 29px;
+    margin-bottom: 53px;
+  }
+
+  /* guests */
+  .guests {
+    padding-top: 56px;
+    padding-bottom: 53px;
+  }
+
+  .guests__title {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .guests__subtitle {
+    margin-bottom: 1px;
+    font-size: 14px;
+  }
+
+  .guests__desc {
+    margin-bottom: 28px;
+    font-size: 14px;
+  }
+
+  .guests__list {
+    gap: 28px;
+  }
+
+  .guests__pic {
+    margin-bottom: 7px;
+  }
+
+  .guests__item-block {
+    max-width: 100%;
+    min-height: 355px;
+  }
+
+  .guests__btn {
+    padding: 9px 13px;
+  }
+
+  /* playlist */
+  .playlists__item {
+    width: calc((100% - 30px) / 2);
+  }
+
+  /* buy */
+  .buy__container {
+    background: url("../img/buy-radio-320.png") 33px 0px / 80% no-repeat;
+  }
+
+  .buy__block {
+    padding-top: 103%;
+  }
+
+  /* about */
+  .about__item {
+    width: calc((100% - 30px) / 2);
+  }
+
+  /* footer */
+  .footer__social-block {
+    max-width: 100%;
+  }
+
+  .footer__nav-list {
+    min-width: 255px;
+    column-count: 2;
+    column-gap: 30px;
+  }
+}
